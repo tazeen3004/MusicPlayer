@@ -14,6 +14,13 @@
 		2F9AC8321E59365B001C4EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8311E59365B001C4EDE /* Assets.xcassets */; };
 		2F9AC8351E59365B001C4EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8331E59365B001C4EDE /* LaunchScreen.storyboard */; };
 		2F9AC8401E59365C001C4EDE /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9AC83F1E59365C001C4EDE /* MusicPlayerUITests.swift */; };
+		2F9AC8541E5948F8001C4EDE /* Speak Now - Back To December.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC84D1E5948F8001C4EDE /* Speak Now - Back To December.mp3 */; };
+		2F9AC8551E5948F8001C4EDE /* Speak Now - Better Than Revenge copy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC84E1E5948F8001C4EDE /* Speak Now - Better Than Revenge copy.mp3 */; };
+		2F9AC8561E5948F8001C4EDE /* Speak Now - Better Than Revenge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC84F1E5948F8001C4EDE /* Speak Now - Better Than Revenge.mp3 */; };
+		2F9AC8571E5948F8001C4EDE /* Speak Now - Enchanted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8501E5948F8001C4EDE /* Speak Now - Enchanted.mp3 */; };
+		2F9AC8581E5948F8001C4EDE /* Speak Now - Long Live.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8511E5948F8001C4EDE /* Speak Now - Long Live.mp3 */; };
+		2F9AC8591E5948F8001C4EDE /* Speak Now - Mine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8521E5948F8001C4EDE /* Speak Now - Mine.mp3 */; };
+		2F9AC85A1E5948F8001C4EDE /* taylor swift-crazier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F9AC8531E5948F8001C4EDE /* taylor swift-crazier.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		2F9AC83B1E59365C001C4EDE /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9AC83F1E59365C001C4EDE /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		2F9AC8411E59365C001C4EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F9AC84D1E5948F8001C4EDE /* Speak Now - Back To December.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Back To December.mp3"; sourceTree = "<group>"; };
+		2F9AC84E1E5948F8001C4EDE /* Speak Now - Better Than Revenge copy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Better Than Revenge copy.mp3"; sourceTree = "<group>"; };
+		2F9AC84F1E5948F8001C4EDE /* Speak Now - Better Than Revenge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Better Than Revenge.mp3"; sourceTree = "<group>"; };
+		2F9AC8501E5948F8001C4EDE /* Speak Now - Enchanted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Enchanted.mp3"; sourceTree = "<group>"; };
+		2F9AC8511E5948F8001C4EDE /* Speak Now - Long Live.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Long Live.mp3"; sourceTree = "<group>"; };
+		2F9AC8521E5948F8001C4EDE /* Speak Now - Mine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Speak Now - Mine.mp3"; sourceTree = "<group>"; };
+		2F9AC8531E5948F8001C4EDE /* taylor swift-crazier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "taylor swift-crazier.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,7 @@
 				2F9AC8311E59365B001C4EDE /* Assets.xcassets */,
 				2F9AC8331E59365B001C4EDE /* LaunchScreen.storyboard */,
 				2F9AC8361E59365B001C4EDE /* Info.plist */,
+				2F9AC84C1E5948F8001C4EDE /* Songs */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -97,6 +112,20 @@
 				2F9AC8411E59365C001C4EDE /* Info.plist */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		2F9AC84C1E5948F8001C4EDE /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				2F9AC84D1E5948F8001C4EDE /* Speak Now - Back To December.mp3 */,
+				2F9AC84E1E5948F8001C4EDE /* Speak Now - Better Than Revenge copy.mp3 */,
+				2F9AC84F1E5948F8001C4EDE /* Speak Now - Better Than Revenge.mp3 */,
+				2F9AC8501E5948F8001C4EDE /* Speak Now - Enchanted.mp3 */,
+				2F9AC8511E5948F8001C4EDE /* Speak Now - Long Live.mp3 */,
+				2F9AC8521E5948F8001C4EDE /* Speak Now - Mine.mp3 */,
+				2F9AC8531E5948F8001C4EDE /* taylor swift-crazier.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9AC8541E5948F8001C4EDE /* Speak Now - Back To December.mp3 in Resources */,
+				2F9AC85A1E5948F8001C4EDE /* taylor swift-crazier.mp3 in Resources */,
+				2F9AC8591E5948F8001C4EDE /* Speak Now - Mine.mp3 in Resources */,
+				2F9AC8561E5948F8001C4EDE /* Speak Now - Better Than Revenge.mp3 in Resources */,
 				2F9AC8351E59365B001C4EDE /* LaunchScreen.storyboard in Resources */,
+				2F9AC8551E5948F8001C4EDE /* Speak Now - Better Than Revenge copy.mp3 in Resources */,
+				2F9AC8581E5948F8001C4EDE /* Speak Now - Long Live.mp3 in Resources */,
+				2F9AC8571E5948F8001C4EDE /* Speak Now - Enchanted.mp3 in Resources */,
 				2F9AC8321E59365B001C4EDE /* Assets.xcassets in Resources */,
 				2F9AC8301E59365B001C4EDE /* Main.storyboard in Resources */,
 			);
