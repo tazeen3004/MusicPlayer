@@ -36,11 +36,12 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         do
         {
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
-            //try audioPlayer = AVAudioPlayer(c)
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!)as URL)
+            audioPlayer.play()
         }
         catch
         {
-            
+            print("error")
         }
     }
     
